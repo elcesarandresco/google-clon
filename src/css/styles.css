@@ -1,0 +1,97 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+
+}
+
+.nav {
+
+    display: flex;
+    padding: 0px 25px;
+    justify-content: flex-end;
+    font-size: 24px;
+
+}
+
+.footer {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f2f2f2;
+    position: inherit;
+    bottom: 0pc;
+    
+}
+
+.footer__element {
+    
+    padding: 15px 35px;
+    display: flex;
+    align-items: center;
+    color: #70757a;
+
+}
+
+.footer__links {
+
+    border-top: 1px solid #dadce0;
+    display: inherit;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 15px;
+
+}
+
+.footer__links ul li {
+
+    padding: 15px 20px;
+
+}
+
+.footer__links--left ul {
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+
+.footer__links--left ul li a {
+
+    text-decoration: none;
+    color: #70757a;
+
+}
+
+.footer__links--right ul {
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+
+}
+
+.footer__links--right ul li a {
+
+    text-decoration: none;
+    color: #70757a;
+
+}
+
+/* modificadores */
+
+
+
