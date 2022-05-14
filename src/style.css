@@ -292,6 +292,7 @@ html {
         padding: 12px 8px;
     
     }
+
 }
 
 @media screen and (max-width: 530px) {
@@ -306,6 +307,12 @@ html {
 
         margin-top: 13px;
 
+    }
+
+    .search .search__container {
+        
+        height: 200px;
+    
     }
     
 }
